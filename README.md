@@ -1,6 +1,6 @@
-# project-stop-and-wait-arq-crc32-simulation-c-
+# project-stop-and-wait-arq-crc32-simulation
 
-Flow Control and Error Control Techniques in the Data Link Layer Protocols
+Flow Control and Error Control Techniques in the Data Link Layer Protocols Simulation in C++
 
 Introduction:
 Stop-and-wait ARQ, also referred to as alternating bit protocol, is a method in telecommunications to send information between two connected devices. It ensures that information is not lost due to dropped packets and that packets are received in the correct order. It is the simplest automatic repeat-request (ARQ) mechanism. A stop-and-wait ARQ sender sends one frame at a time; it is a special case of the general sliding window protocol with transmit and receive window sizes equal to one in both cases. After sending each frame, the sender doesn't send any further frames until it receives an acknowledgement (ACK) signal. After receiving a valid frame, the receiver sends an ACK.
